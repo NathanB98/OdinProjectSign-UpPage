@@ -9,6 +9,7 @@
 
 * {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .pageContainer {
@@ -16,6 +17,8 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* Sidebar Styles */
 
 .titleSideContainer {
     height: 100vh;
@@ -63,4 +66,60 @@
 .sideBarFooter a,
 .sideBarFooter a:active{
     color: white;
+}
+
+/* Main Content Container Styles */
+
+.topContent,
+.formContent,
+.bottomContent {
+    border: 1px solid black;
+
+    margin-left: 75px;
+    font-size: 1.5rem;
+}
+
+.topContent {
+    max-height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 100px 50px 50px 0;
+}
+
+.introPara {
+    padding-bottom: 2px;
+}
+
+.signUpPara {
+    padding-bottom: 20px;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#formLegend {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.bottomContent {
+    }
+
+input[type="submit"] {
+    background-color: #596D48;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input, 
+label {
+    display: block;
 }
