@@ -70,10 +70,14 @@
 
 /* Main Content Container Styles */
 
+.contentContainer {
+    background-color: #EAEBEC;
+}
+
 .topContent,
 .formContent,
 .bottomContent {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
     margin-left: 75px;
     font-size: 1.5rem;
@@ -88,11 +92,16 @@
 }
 
 .introPara {
-    padding-bottom: 2px;
+    padding-bottom: 10px;
 }
 
+.centerContent,
 .signUpPara {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+.centerContent {
+    background-color: white;
 }
 
 .formContent {
@@ -103,12 +112,9 @@
 }
 
 #formLegend {
-    padding: 20px 0;
+    padding: 25px 0;
     font-weight: bold;
 }
-
-.bottomContent {
-    }
 
 input[type="submit"] {
     background-color: #596D48;
@@ -117,6 +123,7 @@ input[type="submit"] {
     padding: 15px 32px;
     text-align: center;
     border-radius: 5px;
+    margin: 35px 0;
 }
 
 input, 
