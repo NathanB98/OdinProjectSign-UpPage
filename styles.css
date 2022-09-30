@@ -77,8 +77,6 @@
 .topContent,
 .formContent,
 .bottomContent {
-    /*border: 1px solid black;*/
-
     margin-left: 75px;
     font-size: 1.5rem;
 }
@@ -102,6 +100,8 @@
 
 .centerContent {
     background-color: white;
+
+    box-shadow: 0 10px 10px lightgray;
 }
 
 .formContent {
