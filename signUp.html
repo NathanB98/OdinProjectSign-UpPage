@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
             </div>
             <div class="centerContent">
                 <div class="formContent">
-                    <form action="#" method="post" id="registerForm">
+                    <form id="registerForm">
                         <legend id="formLegend">Let's do this!</legend>
                         <ul class="getNames">
                             <li>
@@ -56,10 +57,10 @@
                                 <input type="tel" id="user_phone" name="user_phone">
                             </li>
                         </ul>
-                        <ul class="getPass">
+                        <ul class="getPass" id="passwordC">
                             <li>
                                 <label for="pass">PASSWORD</label>
-                                <input type="password" id="user_pass" class="error" name="user_pass">
+                                <div id="passField"><input type="password" id="user_pass" class="error" name="user_pass"></div>
                             </li>
                             <li>
                                 <label for="confirmPass">CONFIRM PASSWORD</label>
